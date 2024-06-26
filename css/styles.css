@@ -1,6 +1,6 @@
 body {
-    font-family: "Roboto", "Raleway", sans-serif;
-    color: #2E2F42;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
     background-color: #FFFFFF;
 
 }
@@ -17,14 +17,14 @@ ul {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: currentColor;
+    color: #4d5ae5;
 }
 
 .header-logo-blue {
-    color: #4D5AE5;
+    color: #2e2f42;
 }
 
 .header-menu-link {
@@ -37,11 +37,13 @@ ul {
 
 .header-menu-link:focus,
 .header-menu-link:hover {
-    color: #4D5AE5;
+    color: #404bbf;
+}
+.header-contact {
+    font-style: normal
 }
 
 .header-contact-link {
-    font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -50,7 +52,7 @@ ul {
 
 .header-contact-link:focus,
 .header-contact-link:hover {
-    color: #4D5AE5;
+    color: #404bbf;
 }
 
 .hero {
@@ -60,13 +62,14 @@ ul {
 .hero-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
 }
 
 .hero-button {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -76,7 +79,8 @@ ul {
     cursor: pointer;
 }
 
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus {
     color: #FFFFFF;
     background-color: #404BBF;
 }
@@ -85,6 +89,7 @@ ul {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em
 }
 
 .hidden-item-text {
@@ -101,9 +106,13 @@ ul {
 .team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize
+}
+.team-menu-item {
+    background-color: #FFFFFF;
 }
 
 .team-item-title {
@@ -125,9 +134,10 @@ ul {
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize
 }
 
 .portfolio-item-title {
@@ -153,14 +163,14 @@ ul {
     ;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #F4F4FD;
+    color: #4d5ae5;
 }
 
 .footer-logo-blue {
-    color: #4D5AE5;
+    color: #f4f4fd;
 }
 
 .footer-text {
