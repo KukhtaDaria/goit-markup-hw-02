@@ -26,6 +26,9 @@ ul {
 .header-logo-blue {
     color: #2e2f42;
 }
+.header-menu-item {
+    color: #2e2f42;
+}
 
 .header-menu-link {
     font-weight: 500;
@@ -89,6 +92,7 @@ ul {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    color: #2e2f42;
     letter-spacing: 0.02em
 }
 
@@ -109,6 +113,7 @@ ul {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    color: #2e2f42;
     text-transform: capitalize
 }
 .team-menu-item {
@@ -120,6 +125,7 @@ ul {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
     text-align: center;
 }
 
@@ -137,6 +143,7 @@ ul {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    color: #2e2f42;
     text-transform: capitalize
 }
 
